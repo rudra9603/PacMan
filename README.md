@@ -1,18 +1,54 @@
-## Getting Started
+# Pac-Man Game in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+A classic Pac-Man arcade game implemented in Java using Swing, featuring:
+- Full game mechanics
+- Multiple ghosts
+- Score tracking
+- Lives system
 
-## Folder Structure
+## Features
+- Playable Pac-Man character
+- 4 different colored ghosts
+- Maze-based gameplay
+- Score and lives display
+- Game over and restart functionality
 
-The workspace contains two folders by default, where:
+## Technologies
+- Java
+- Swing
+- AWT
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Game Mechanics
+- Use arrow keys to control Pac-Man
+- Eat all food dots to advance
+- Avoid ghosts
+- 3 lives per game
+- Restart game by pressing any key after game over
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Prerequisites
+- Java Development Kit (JDK)
+- Java IDE or text editor
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to Run
+1. Clone the repository
+2. Compile the Java files
+3. Run the `PacMan` class
 
-## Dependency Management
+## Images Required
+Ensure the following image files are in the same directory:
+- `wall.png`
+- `blueGhost.png`
+- `orangeGhost.png`
+- `pinkGhost.png`
+- `redGhost.png`
+- `pacmanUp.png`
+- `pacmanDown.png`
+- `pacmanLeft.png`
+- `pacmanRight.png`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Contributions
+Contributions are welcome! Feel free to submit pull requests.
+
+## License
+MIT License
